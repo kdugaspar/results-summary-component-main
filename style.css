@@ -156,6 +156,15 @@ gap: 20px;
 .sesao-direita-bloco-01 {
   background-color:#fff4f6;
 }
+.bloco-reaction{
+  background-color: #1124d400;
+}
+img{
+  position: relative;
+  top: 0.2rem;
+  width:1.6rem;
+  background-color: #00bd9100;
+}
 .nomes{
   font-weight: 500;
 }
@@ -163,6 +172,7 @@ gap: 20px;
   font-weight: 700;
 }
 .reaction{
+  background-color: #303b5900;
   color: #ff5757;
 }
 .sesao-direita-bloco-02{
