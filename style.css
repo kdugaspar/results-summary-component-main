@@ -22,13 +22,14 @@
 }
 
 main {
-  background-color: #00FFE0;
+  background-color: #00ffe100;
   min-height: 100vh;
 }
 
 .blocos {
   background-color: rgb(255, 255, 255);
   border-radius: 29px 25px 25px 29px;
+  box-shadow: 20px 20px 20px 20px #88888811;
 
 }
 
@@ -139,6 +140,7 @@ h3 {
   font-size: 1.8rem;
 }
 .sesao-direita-blocos{
+  background-color: #1124d400;
 display: flex;
 flex-direction: column;
 gap: 20px;
@@ -146,18 +148,21 @@ gap: 20px;
 .sesao-direita-bloco {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 12px;
   font-size: 4rem;
-  padding: 0.5rem;
+  padding: 0.6rem;
 }
 
 .sesao-direita-bloco-01 {
   background-color:#fff4f6;
 }
-.bloco-reaction{
+.bloco-divisao-nome{
   background-color: #1124d400;
+  text-align: right;
+  position: relative;
+  margin-left: 1rem;
 }
 img{
   position: relative;
@@ -167,6 +172,10 @@ img{
 }
 .nomes{
   font-weight: 500;
+}
+.divisao-numero{
+  background-color: #00bd9100;
+  width: 6.9rem;
 }
 .numero{
   font-weight: 700;
@@ -194,6 +203,14 @@ background-color: #f2fbfa;
 }
 .visual{
   color: #1125d4;
+}
+button{
+  background-color:#252c40;
+  border: none;
+  color: white;
+  height: 5.6rem;
+  font-size: 1.5rem;
+  border-radius: 50px;
 }
 .attribution {
   font-size: 11px;
