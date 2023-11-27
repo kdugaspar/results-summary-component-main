@@ -213,6 +213,9 @@ button{
   font-size: 1.5rem;
   border-radius: 50px;
 }
+button:hover{
+  background-image: linear-gradient(#6235DE, #2421ca)
+}
 .attribution {
   font-size: 11px;
   text-align: center;
