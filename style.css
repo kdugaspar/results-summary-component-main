@@ -225,3 +225,213 @@ button:hover{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width:1020px){
+ 
+  main {
+    background-color: #00ffe1;
+    min-height: 100vh;
+  }
+  
+  .blocos {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius:0px;
+    width: 100%;
+  
+  }
+  
+  .sesao-esquerda {
+    height: 45rem; 
+    width: 100%;
+    padding: 12px;
+    border-radius: 0px 0px 60px 60px;
+  
+    background-color: rgb(255, 0, 0);
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(#7857FF, #2E2BE9)
+  }
+  
+  .artigo-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+    background-color: rgba(137, 43, 226, 0);
+    height: 37.5rem;
+    width: 27rem;
+  }
+  
+  .sesao-esquedar-01 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background-color: #ff00ff00;
+    height: 30rem;
+  }
+  
+  h1 {
+    background-color: rgba(250, 235, 215, 0);
+    font-size: 2.3rem;
+  }
+  
+  .sesao-esquedar-02 {
+    background-color: #ff005500;
+    height:17rem;
+    width: 17.4rem;
+  }
+  
+  .divisao-esquedar-circulo {
+    height: 17rem;
+    width: 17.4rem;
+    border-radius: 50%;
+  
+    background-image: linear-gradient(#6235DE, #2421ca)
+  }
+  
+  .esquedar-circulo-01 {
+    background-color: rgba(255, 145, 0, 0);
+    font-size: 7.4rem;
+    font-weight: bold;
+  }
+  
+  .esquedar-circulo-02 {
+    background-color: #008cff00;
+    color: rgba(214, 203, 203, 0.726);
+    font-size: 1.6rem;
+  }
+  
+  .artigo-esquerda>.artigo-esquerda-01 {
+    background-color: #00ff1500;
+    display: flex;
+    gap: 18px;
+  }
+  
+  h2 {
+    background-color: #ffd00000;
+    font-size: 2.6rem;
+  }
+  
+  p {
+    background-color: #008cff00;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+  }
+  
+  /*outro lado */
+  
+  .sesao-direita {
+  
+    background-color: rgba(228, 13, 13, 0);
+    height: 44rem;
+    width: 33rem;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 0px 25px 25px 0px;
+  }
+  
+  .sesao-direita-01 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: rgba(72, 255, 0, 0);
+    height: 41.2rem;
+    width: 28rem;
+  }
+  
+  h3 {
+    background-color:#252c4000;
+    color: #303b59;
+    font-size: 2.3rem;
+  }
+  .sesao-direita-blocos{
+    background-color: #1124d400;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+  .sesao-direita-bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 4rem;
+    padding: 0.8rem;
+    background-color: #aabd0000;
+  }
+  
+  .sesao-direita-bloco-01 {
+    background-color:#fff4f6;
+  }
+  .bloco-divisao-nome{
+    background-color: #1124d400;
+    text-align: right;
+    position: relative;
+    margin-left: 1rem;
+  }
+  img{
+    position: relative;
+    top: 0.2rem;
+    width:1.6rem;
+    background-color: #00bd9100;
+  }
+  .nomes{
+    font-weight: 500;
+  }
+  .divisao-numero{
+    background-color: #00bd9100;
+    width: 6.9rem;
+  }
+  .numero{
+    font-weight: 700;
+  }
+  .reaction{
+    background-color: #303b5900;
+    color: #ff5757;
+  }
+  .sesao-direita-bloco-02{
+    background-color: #fffaf3;
+  }
+  .memory{
+    color: #ffb01f;
+  }
+  .sesao-direita-bloco-03{
+  background-color: #f2fbfa;
+  
+  }
+  .verbal{
+    color: #00bd91;
+  }
+  .sesao-direita-bloco-04{
+    background-color: #f3f3fe;
+    
+  }
+  .visual{
+    color: #1125d4;
+  }
+  button{
+    background-color:#252c40;
+    border: none;
+    color: white;
+    height: 5.6rem;
+    font-size: 1.5rem;
+    border-radius: 50px;
+  }
+  button:hover{
+    background-image: linear-gradient(#6235DE, #2421ca)
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
