@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.linha{
+    display: inline;
+   }
+  main {
+    min-height: 100vh;
+    /* margin-top: -2.2rem; */
+  }
+
+  .blocos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(238, 5, 5, 0);
+    border-radius: 0px;
+    height:93rem;
+  }
+
+  .sesao-esquerda {
+    height: 40rem;
+    width: 40.4rem;
+    border-radius: 0px 0px 60px 60px;
+  }
+
+  .artigo-esquerda {
+    height: 37.5rem;
+  }
+
+  .sesao-esquedar-01 {
+    height: 27rem;
+  }
+
+  .sesao-esquedar-02 {
+    height: 17rem;
+    width: 17.4rem;
+  }
+
+  .divisao-esquedar-circulo {
+    height: 17rem;
+    width: 17.4rem;
+  }
+
+  .artigo-esquerda>.artigo-esquerda-01 {
+    gap: 18px;
+  }
+
+  p {
+    width: 27rem;
+  }
+
+  /*outro lado */
+
+  .sesao-direita {
+    width: 37rem;
+    height: 46rem;
+    padding: 10px;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .sesao-direita-01 {
+    gap: 30px;
+    height: 46.6rem;
+    width: 36rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  .sesao-direita-blocos {
+    gap: 22px;
+  }
+
+  .sesao-direita-bloco {
+    font-size: 4.5rem;
+    padding: 1.2rem;
+  }
+
+
+
+ 
+ 
+
