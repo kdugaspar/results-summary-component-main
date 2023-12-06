@@ -13,14 +13,16 @@
   justify-content: center;
   align-items: center;
 }
-html{
-  background-color: rgb(255, 255, 255);
-  min-height: 100vh;
-}
+
 main {
   background-color: #00ffe100;
+  min-height: 100vh;
 }
 .blocos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
   background-color: rgba(255, 255, 255, 0);
   border-radius: 29px 25px 25px 29px;
   box-shadow: 20px 20px 20px 20px #88888811;
@@ -193,10 +195,11 @@ img {
 }
 
 button {
+  display: block;
   background-color: #252c40;
   border: none;
   color: white;
-  height: 5.6rem;
+  height: 5.7rem;
   font-size: 1.5rem;
   border-radius: 50px;
 }
@@ -204,7 +207,9 @@ button {
 button:hover {
   background-image: linear-gradient(#6235DE, #2421ca)
 }
-
+.botao{
+  display: none;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

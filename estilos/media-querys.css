@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+
+@media print{
+/* IMPRESSÃO */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+/* TABLET */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00ffe100;
+    min-height: 100vh;
+  }
+.blocos {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: rgba(189, 219, 19, 0);
+    border-radius: 29px 25px 25px 29px;
+    box-shadow: 20px 20px 20px 20px #88888811;
+  
+  }
+  .sesao-esquerda {
+    height: 46rem;
+    width: 33rem;
+    padding: 12px;
+    border-radius: 30px;
+  
+    background-color: rgb(255, 0, 0);
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(#7857FF, #2E2BE9)
+  }
+  .artigo-esquerda {
+    background-color: rgba(137, 43, 226, 0);
+    height: 40rem;
+    width: 26rem;
+  }
+ 
+  /*outro lado */
+  .espaco{
+   height: 16px; 
+   background-color: #1124d400;
+  }
+  .sesao-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgba(228, 13, 13, 0);
+    height: 44rem;
+    width: 40rem;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 0px 25px 25px 0px;
+  }
+  .sesao-direita-01 {
+   display: flex;
+   flex-direction: column;       
+   gap: 20px;
+    background-color: rgba(72, 255, 0, 0);
+    height: 34rem;
+    width: 34rem;
+  }
+ 
+.sesao-direita-blocos {
+    background-color: #1124d400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  button{
+    display: none;
+  }
+  .botao{
+    display: block;
+    width: 34rem;
+    height: 5rem;
+  }
+}
+
+
+    
+    @media screen and (min-width: 992px) and (max-width: 1200px){
+        /* DESKTOP */
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        
+            background-color: #00ffe100;
+            min-height: 100vh;
+          }
+        .blocos {
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        
+            background-color: rgba(189, 219, 19, 0);
+            border-radius: 29px 25px 25px 29px;
+            box-shadow: 20px 20px 20px 20px #88888811;
+          
+          }
+          .sesao-esquerda {
+            height: 46rem;
+            width: 33rem;
+            padding: 12px;
+            border-radius: 30px;
+          
+            background-color: rgb(255, 0, 0);
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(#7857FF, #2E2BE9)
+          }
+          .artigo-esquerda {
+            background-color: rgba(137, 43, 226, 0);
+            height: 40rem;
+            width: 26rem;
+          }
+         
+          /*outro lado */
+          .espaco{
+           height: 16px; 
+           background-color: #1124d400;
+          }
+          .sesao-direita {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            background-color: rgba(228, 13, 13, 0);
+            height: 44rem;
+            width: 40rem;
+            border: 2px solid rgb(255, 255, 255);
+            padding: 5px;
+            border-radius: 0px 25px 25px 0px;
+          }
+          .sesao-direita-01 {
+           display: flex;
+           flex-direction: column;       
+           gap: 20px;
+            background-color: rgba(72, 255, 0, 0);
+            height: 34rem;
+            width: 34rem;
+          }
+         
+        .sesao-direita-blocos {
+            background-color: #1124d400;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+          }
+          button{
+            display: none;
+          }
+          .botao{
+            display: block;
+            width: 34rem;
+            height: 5rem;
+          }
+    }
+    
+
+@media screen and (min-width: 1200px){
+    /* GRANDE TELAS */
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: #00ffe100;
+        min-height: 100vh;
+      }
+    .blocos {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    
+        background-color: rgba(189, 219, 19, 0);
+        border-radius: 29px 25px 25px 29px;
+        box-shadow: 20px 20px 20px 20px #88888811;
+      
+      }
+      .sesao-esquerda {
+        height: 46rem;
+        width: 33rem;
+        padding: 12px;
+        border-radius: 30px;
+      
+        background-color: rgb(255, 0, 0);
+        /* For browsers that do not support gradients */
+        background-image: linear-gradient(#7857FF, #2E2BE9)
+      }
+      .artigo-esquerda {
+        background-color: rgba(137, 43, 226, 0);
+        height: 40rem;
+        width: 26rem;
+      }
+     
+      /*outro lado */
+      .espaco{
+       height: 16px; 
+       background-color: #1124d400;
+      }
+      .sesao-direita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        background-color: rgba(228, 13, 13, 0);
+        height: 44rem;
+        width: 40rem;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 5px;
+        border-radius: 0px 25px 25px 0px;
+      }
+      .sesao-direita-01 {
+       display: flex;
+       flex-direction: column;       
+       gap: 20px;
+        background-color: rgba(72, 255, 0, 0);
+        height: 34rem;
+        width: 34rem;
+      }
+     
+    .sesao-direita-blocos {
+        background-color: #1124d400;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      button{
+        display: none;
+      }
+      .botao{
+        display: block;
+        width: 34rem;
+        height: 5rem;
+      }
+    }
+    
+    
