@@ -1,49 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;700;800&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 62.5%;
 }
-
-.linha {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 .coluna {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-main {
-  background-color: #00ffe100;
+html{
+  background-color: rgb(255, 255, 255);
   min-height: 100vh;
 }
-
+main {
+  background-color: #00ffe100;
+}
 .blocos {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 29px 25px 25px 29px;
   box-shadow: 20px 20px 20px 20px #88888811;
 
 }
-
-.sesao-esquerda {
-  height: 48rem;
-  width: 33rem;
-  padding: 12px;
-  border-radius: 25px;
+.sesao-esquerda{
+  height: 38rem;
+ /* width: 33rem; */
+  padding: 25px;
+  border-radius: 0px 0px 35px 35px;
 
   background-color: rgb(255, 0, 0);
   /* For browsers that do not support gradients */
   background-image: linear-gradient(#7857FF, #2E2BE9)
 }
-
 .artigo-esquerda {
   display: flex;
   flex-direction: column;
@@ -51,64 +43,55 @@ main {
 
   color: white;
   background-color: rgba(137, 43, 226, 0);
-  height: 41.5rem;
-  width: 24rem;
+  height: 40rem;
+  width: 28rem;
 }
-
 .sesao-esquedar-01 {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
   text-align: center;
   background-color: #ff00ff00;
-  height: 30rem;
+  height: 26rem;
 }
-
 h1 {
   background-color: rgba(250, 235, 215, 0);
   font-size: 2.3rem;
 }
-
 .sesao-esquedar-02 {
   background-color: #ff005500;
   height: 19rem;
   width: 19.4rem;
 }
-
 .divisao-esquedar-circulo {
-  height: 19rem;
-  width: 19.4rem;
+  height: 17rem;
+  width: 17.4rem;
   border-radius: 50%;
 
   background-image: linear-gradient(#6235DE, #2421ca)
 }
-
 .esquedar-circulo-01 {
   background-color: rgba(255, 145, 0, 0);
   font-size: 7.4rem;
   font-weight: bold;
 }
-
 .esquedar-circulo-02 {
   background-color: #008cff00;
   color: rgba(214, 203, 203, 0.726);
   font-size: 1.6rem;
 }
-
 .artigo-esquerda>.artigo-esquerda-01 {
   background-color: #00ff1500;
   display: flex;
   gap: 21px;
 }
-
 h2 {
   background-color: #ffd00000;
   font-size: 2.6rem;
 }
-
 p {
   background-color: #008cff00;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 300;
   text-align: center;
   color: white;
@@ -117,22 +100,16 @@ p {
 /*outro lado */
 
 .sesao-direita {
-
   background-color: rgba(228, 13, 13, 0);
-  height: 44rem;
-  width: 33rem;
-  border: 2px solid rgb(255, 255, 255);
-  padding: 10px;
-  border-radius: 0px 25px 25px 0px;
+  padding: 35px;
 }
-
 .sesao-direita-01 {
   display: flex;
   flex-direction: column;
   gap: 35px;
   background-color: rgba(72, 255, 0, 0);
   height: 41.2rem;
-  width: 28rem;
+  width: 34rem;
 }
 
 h3 {
@@ -147,7 +124,6 @@ h3 {
   flex-direction: column;
   gap: 20px;
 }
-
 .sesao-direita-bloco {
   display: flex;
   flex-direction: row;
@@ -158,29 +134,24 @@ h3 {
   padding: 0.8rem;
   background-color: #aabd0000;
 }
-
 .sesao-direita-bloco-01 {
   background-color: #fff4f6;
 }
-
 .bloco-divisao-nome {
   background-color: #1124d400;
   text-align: right;
   position: relative;
   margin-left: 1rem;
 }
-
 img {
   position: relative;
   top: 0.2rem;
   width: 1.6rem;
   background-color: #00bd9100;
 }
-
 .nomes {
   font-weight: 500;
 }
-
 .divisao-numero {
   background-color: #00bd9100;
   width: 6.9rem;
@@ -242,8 +213,3 @@ button:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-/*
-@media screen and (max-width:1020px) {
-   
-}
-*/
